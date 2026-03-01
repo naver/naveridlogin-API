@@ -1,0 +1,108 @@
+name: "🚨 기술 문의 - 동작 오류"
+description: "네이버로그인을 적용했는데 정상적으로 동작하지 않을 때 사용해 주세요."
+title: "[오류] "
+labels: ["question", "bug-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        오류 현상을 최대한 자세히 작성해 주시면 빠른 원인 파악에 도움이 됩니다.
+        > ⚠️ **Client Secret은 절대 기입하지 마세요. Client ID만 입력해 주세요.**
+
+  - type: input
+    id: client-id
+    attributes:
+      label: Client ID
+      description: 개발자센터에 등록된 Client ID를 입력해 주세요. (Client Secret은 절대 입력하지 마세요)
+      placeholder: "예: abc123xyz"
+    validations:
+      required: true
+
+  - type: input
+    id: service-url
+    attributes:
+      label: 서비스 URL
+      description: 개발자센터에 등록하신 서비스 URL을 입력해 주세요.
+      placeholder: "예: https://www.example.com"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-description
+    attributes:
+      label: 오류 현상
+      description: 어떤 오류가 발생하는지 구체적으로 작성해 주세요. (오류 메시지, 스크린샷 첨부 권장)
+      placeholder: "예: 로그인 버튼 클릭 시 'invalid_client' 오류가 발생합니다."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment-device
+    attributes:
+      label: 오류 발생 환경 - 기기
+      multiple: true
+      options:
+        - Android
+        - iOS
+        - PC
+        - 기타
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment-type
+    attributes:
+      label: 오류 발생 환경 - 실행 방식
+      multiple: true
+      options:
+        - 브라우저 (웹)
+        - 앱 (네이티브)
+        - 앱 내 WebView
+        - 기타
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: 오류 재현 스텝
+      description: 오류를 재현해보려면 어떤 절차로 진행해야 하는지 순서대로 적어주시면 빠른 원인 파악에 도움이 됩니다.
+      placeholder: |
+        1. 서비스 페이지 접속
+        2. 네이버로그인 버튼 클릭
+        3. 네이버 로그인 완료
+        4. redirect 후 오류 발생
+    validations:
+      required: true
+
+  - type: textarea
+    id: suspected-cause
+    attributes:
+      label: 짐작되는 원인
+      description: 혹시 원인을 짐작하고 계신다면 자유롭게 작성해 주세요.
+      placeholder: "예: redirect_uri 설정 문제인 것 같습니다."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### * 네이버로그인 뱃지가 노출이 안되는 경우
+        - 네이버로그인 뱃지가 노출되지 않으면 다음의 사항을 확인해주세요.
+           1) 개발자센터에 등록된 '서비스 URL'이 광고나 사이트 검색에 노출되는 URL과 동일한지 여부
+           2) 일정 수준 이상의 사용자가 발생하는지 여부
+
+        ### * 등록자 아이디 변경이 필요한 경우
+        - [문의폼](https://help.naver.com/support/alias/naveridlogin/naveridlogin_03.naver)으로 접수해주세요.
+
+        ### * 네이버로그인 영문 가이드가 필요한 경우
+        - dl_naverid@navercorp.com 으로 문의 해주세요.
+
+        ### * 서비스 설정에 오류가 있다는 메시지가 노출되는 경우
+        - [도움말](https://help.naver.com/support/alias/naveridlogin/naveridlogin_02.naver)을 참고해 주세요.
+
+        ### * 참고
+        - [적용 가이드](https://developers.naver.com/products/login/userguide/)
+        - [개발 가이드](https://developers.naver.com/docs/login/devguide/)
+        - [검수 가이드](https://developers.naver.com/docs/login/verify/)

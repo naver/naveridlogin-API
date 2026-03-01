@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📘 적용 가이드
+    url: https://developers.naver.com/products/login/userguide/
+    about: 네이버로그인 적용 가이드 문서입니다.
+  - name: 📗 개발 가이드
+    url: https://developers.naver.com/docs/login/devguide/
+    about: 네이버로그인 개발 가이드 문서입니다.
+  - name: 📙 검수 가이드
+    url: https://developers.naver.com/docs/login/verify/
+    about: 네이버로그인 검수 가이드 문서입니다.
+  - name: 📝 등록자 아이디 변경 문의
+    url: https://help.naver.com/support/alias/naveridlogin/naveridlogin_03.naver
+    about: 등록자 아이디 변경이 필요한 경우 문의폼을 이용해 주세요.
