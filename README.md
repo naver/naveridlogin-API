@@ -28,12 +28,14 @@
 
 </details>
 
+
 <details>
 <summary><strong>등록자 아이디를 변경해야 해요.</strong></summary>
 
 이슈 등록이 아닌 [문의폼](https://help.naver.com/support/alias/naveridlogin/naveridlogin_03.naver)으로 접수해 주세요.
 
 </details>
+
 
 <details>
 <summary><strong>영문 가이드가 필요해요.</strong></summary>
@@ -42,12 +44,14 @@
 
 </details>
 
+
 <details>
 <summary><strong>로그인 버튼 디자인을 임의로 변경해도 되나요?</strong></summary>
 
 임의 변경은 불가합니다. 색상, 로고, 형태는 공식 [브랜드 가이드라인](https://developers.naver.com/docs/login/bi/bi.md)을 준수해야 하며, 크기 조정 정도만 허용됩니다. 미준수 시 검수 반려 또는 이용 중지될 수 있습니다.
 
 </details>
+
 
 <details>
 <summary><strong>서비스 URL이 변경되었을 때 어떻게 수정하나요?</strong></summary>
@@ -56,6 +60,7 @@
 
 </details>
 
+
 </details>
 <summary><strong>콜백 URL을 여러 개 등록할 수 있나요?</strong></summary>
 
@@ -63,12 +68,14 @@
 
 </details>
 
+
 </details>
 <summary><strong>해외 서비스에도 네이버 로그인을 적용할 수 있나요?</strong></summary>
 
 적용 가능합니다. 다양한 글로벌 서비스도 실제 적용 중입니다. 단, 이용자의 정보가 해외의 서버로 전송된다면, 반드시 '국외이전동의' 설정을 해주셔야 합니다. (- 애플리케이션 -> API설정 ->개인정보 국외이전 동의 ->국외이전 정보 등록)
 
 </details>
+
 
 </details>
 <summary><strong>앱 이름이나 로고가 변경되면 재심사가 필요한가요?</strong></summary>
