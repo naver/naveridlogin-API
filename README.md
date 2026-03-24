@@ -13,8 +13,7 @@
 
 | 상황 | 템플릿 |
 |---|---|
-| 네이버로그인을 적용했는데 정상 동작하지 않을 때 | [🚨 기술 문의 - 동작 오류](../../issues/new?template=02-technical-not-working.yml) |
-| 그 외 일반 문의 | [💬 일반 문의](../../issues/new?template=03-general.yml) |
+| 일반 문의 | [💬 일반 문의](../../issues/new?template=03-general.yml) |
 
 ---
 
