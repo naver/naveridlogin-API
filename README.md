@@ -61,7 +61,7 @@
 </details>
 
 
-</details>
+<details>
 <summary><strong>콜백 URL을 여러 개 등록할 수 있나요?</strong></summary>
 
 여러 개 등록 가능합니다. 단, 로그인 요청 시 redirect_uri는 등록된 URL과 정확히 일치해야 합니다.
@@ -69,7 +69,7 @@
 </details>
 
 
-</details>
+<details>
 <summary><strong>해외 서비스에도 네이버 로그인을 적용할 수 있나요?</strong></summary>
 
 적용 가능합니다. 다양한 글로벌 서비스도 실제 적용 중입니다. 단, 이용자의 정보가 해외의 서버로 전송된다면, 반드시 '국외이전동의' 설정을 해주셔야 합니다. (- 애플리케이션 -> API설정 ->개인정보 국외이전 동의 ->국외이전 정보 등록)
@@ -77,7 +77,7 @@
 </details>
 
 
-</details>
+<details>
 <summary><strong>앱 이름이나 로고가 변경되면 재심사가 필요한가요?</strong></summary>
 
 네, 재검수가 필요합니다. 앱 이름과 로고는 사용자의 네이버 로그인 동의 화면에 노출되는 정보이기 때문에, 변경 시 반드시 검수를 다시 받아야 합니다.
