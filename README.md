@@ -13,7 +13,11 @@
 
 | 상황 | 템플릿 |
 |---|---|
-| 일반 문의 | [💬 일반 문의](../../issues/new?template=03-general.yml) |
+| REST API 설정 중 궁금한 점이 있을 때 | [🔧 기술 문의 - REST API 설정](../../issues/new?template=01-technical-rest-api.yml) |
+| 네이버로그인을 적용했는데 정상적으로 동작하지 않을 때 | [🚨 기술 문의 - 동작 오류](../../issues/new?template=02-technical-not-working.yml) |
+| 그 밖의 네이버로그인 관련 문의 | [💬 일반 문의](../../issues/new?template=03-general.yml) |
+| Android SDK 관련 문의 | [🤖 Android SDK 저장소](https://github.com/naver/naveridlogin-sdk-android/issues) |
+| iOS SDK 관련 문의 | [🍎 iOS SDK 저장소](https://github.com/naver/naveridlogin-sdk-ios-swift/issues) |
 
 ---
 
