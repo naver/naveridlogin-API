@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 🤖 Android SDK 관련 문의
+    url: https://github.com/naver/naveridlogin-sdk-android/issues
+    about: 네이버로그인 Android SDK 관련 문의는 SDK 저장소에 남겨 주세요.
+  - name: 🍎 iOS SDK 관련 문의
+    url: https://github.com/naver/naveridlogin-sdk-ios-swift/issues
+    about: 네이버로그인 iOS SDK 관련 문의는 SDK 저장소에 남겨 주세요.
   - name: 📘 적용 가이드
     url: https://developers.naver.com/products/login/userguide/
     about: 네이버로그인 적용 가이드 문서입니다.
